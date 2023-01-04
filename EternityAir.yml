@@ -17,23 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-165.3.122.219-0951 | 108.684MB
-  server: zzus01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: acb6b904-a046-4611-8251-17b613145799
-  sni: zzus01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇺🇸US-34.213.50.202-0549 | 65.045MB
-  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
-  port: 10392
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-104.17.178.71-0152 | 25.166MB
+- name: RELAY-104.17.178.71-0975 | 55.369MB
   server: cm.sylu.cyou
   port: 443
   type: vmess
@@ -47,7 +31,7 @@ proxies:
     path: /
     headers:
       Host: scwnl.sylu.cyou
-- name: RELAY-172.67.189.230-0636 | 21.827MB
+- name: RELAY-172.67.206.31-0736 | 50.622MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -56,22 +40,27 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.189.230-0636 | 21.827MB
+  servername: RELAY-172.67.206.31-0736 | 50.622MB
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: lvryzenkvm1gb.sharecentre.online
-- name: 🇺🇸US-52.8.77.107-0606 | 20.627MB
-  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
-  port: 80
+      Host: lu.sharecentre.online
+- name: 🇺🇸US-66.152.160.78-0359 | 21.617MB
+  server: us8.netflix6.com
+  port: 443
   type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: RELAY-104.17.178.71-0154 | 20.33MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us8.netflix6.com
+- name: RELAY-104.17.178.71-0977 | 21.211MB
   server: cm.sylu.cyou
   port: 443
   type: vmess
@@ -85,21 +74,28 @@ proxies:
     path: /
     headers:
       Host: scwfrr.sylu.cyou
-- name: RELAY-104.17.178.71-0150 | 19.874MB
-  server: cm.sylu.cyou
-  port: 443
+- name: 🇺🇸US-173.230.151.69-0574 | 18.224MB
+  server: v53.kamatera.online
+  port: 10000
   type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: scwpl.sylu.cyou
-- name: 🇫🇷FR-51.15.119.156-0151 | 19.344MB
+      Host: tms.dingtalk.com
+- name: 🇺🇸US-165.3.122.219-0675 | 17.96MB
+  server: zzus01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: 989e080e-9b10-4d6e-901a-9e2551604a2d
+  sni: zzus01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇫🇷FR-51.15.119.156-0974 | 16.389MB
   server: scwnl.sylu.cyou
   port: 443
   type: vmess
@@ -113,7 +109,7 @@ proxies:
     path: /
     headers:
       Host: scwnl.sylu.cyou
-- name: 🇫🇷FR-163.172.137.0-0153 | 19.071MB
+- name: 🇫🇷FR-163.172.137.0-0976 | 16.144MB
   server: scwfrr.sylu.cyou
   port: 443
   type: vmess
@@ -127,22 +123,7 @@ proxies:
     path: /
     headers:
       Host: scwfrr.sylu.cyou
-- name: RELAY-172.67.189.230-0635 | 18.13MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.189.230-0635 | 18.13MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-gcore.sharecentre.online
-- name: RELAY-104.17.178.71-0156 | 16.333MB
+- name: RELAY-104.17.178.71-0973 | 15.089MB
   server: cm.sylu.cyou
   port: 443
   type: vmess
@@ -155,29 +136,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: gcssjp.sylu.cyou
-- name: 🇨🇳CN-157.254.193.251-0949 | 16.147MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: acb6b904-a046-4611-8251-17b613145799
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-95.85.94.82-0155 | 15.514MB
-  server: gcssjp.sylu.cyou
-  port: 443
-  type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gcssjp.sylu.cyou
-- name: 🇵🇱PL-151.115.62.177-0149 | 15.273MB
+      Host: scwpl.sylu.cyou
+- name: 🇵🇱PL-151.115.62.177-0972 | 13.841MB
   server: scwpl.sylu.cyou
   port: 443
   type: vmess
@@ -191,14 +151,7 @@ proxies:
     path: /
     headers:
       Host: scwpl.sylu.cyou
-- name: 🇨🇳CN-157.254.193.251-0950 | 14.551MB
-  server: zzjp01.fuqiangren.com
-  port: 20221
-  type: trojan
-  password: acb6b904-a046-4611-8251-17b613145799
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: RELAY-104.17.178.71-0160 | 12.572MB
+- name: RELAY-104.17.178.71-0983 | 12.928MB
   server: cm.sylu.cyou
   port: 443
   type: vmess
@@ -212,7 +165,7 @@ proxies:
     path: /
     headers:
       Host: gcspl.sylu.cyou
-- name: 🇵🇱PL-94.156.45.46-0159 | 12.047MB
+- name: 🇵🇱PL-94.156.45.46-0982 | 12.274MB
   server: gcspl.sylu.cyou
   port: 443
   type: vmess
@@ -226,7 +179,14 @@ proxies:
     path: /
     headers:
       Host: gcspl.sylu.cyou
-- name: RELAY-104.17.178.71-0183 | 11.922MB
+- name: 🇨🇳CN-157.254.193.251-0673 | 11.279MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: 989e080e-9b10-4d6e-901a-9e2551604a2d
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: RELAY-104.17.178.71-1006 | 11.095MB
   server: cm.sylu.cyou
   port: 443
   type: vmess
@@ -240,7 +200,99 @@ proxies:
     path: /
     headers:
       Host: hosmatic.sylu.cyou
-- name: RELAY-104.17.178.71-0168 | 8.931MB
+- name: 🇨🇳CN-157.254.193.251-0674 | 9.373MB
+  server: zzjp01.fuqiangren.com
+  port: 20221
+  type: trojan
+  password: 989e080e-9b10-4d6e-901a-9e2551604a2d
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇯🇵JP-18.183.222.231-0144 | 4.744MB
+  server: jp04.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 5cf6cc26-6650-4995-8cdd-9334a044b241
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp04.170203.xyz
+- name: 🇯🇵JP-54.249.148.230-0141 | 4.484MB
+  server: jp02.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 5cf6cc26-6650-4995-8cdd-9334a044b241
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.170203.xyz
+- name: 🇯🇵JP-18.181.182.165-0142 | 4.373MB
+  server: jp001.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 5cf6cc26-6650-4995-8cdd-9334a044b241
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp001.170203.xyz
+- name: 🇯🇵JP-18.179.8.21-0143 | 3.692MB
+  server: jp03.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 5cf6cc26-6650-4995-8cdd-9334a044b241
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp03.170203.xyz
+- name: 🇰🇷KR-43.201.86.54-0140 | 3.169MB
+  server: kr01.170203.xyz
+  port: 45453
+  type: vmess
+  uuid: 5cf6cc26-6650-4995-8cdd-9334a044b241
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr01.170203.xyz
+- name: RELAY-172.67.108.168-0733 | 3.148MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.108.168-0733 | 3.148MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp-ntt.sharecentre.online
+- name: RELAY-104.17.178.71-0991 | 3.033MB
   server: cm.sylu.cyou
   port: 443
   type: vmess
@@ -254,20 +306,20 @@ proxies:
     path: /
     headers:
       Host: gcoresgg.sylu.cyou
-- name: 🇨🇳CN-36.155.22.91-0022 | 8.312MB
-  server: in06.my1188.org
-  port: 64005
+- name: 🇨🇳CN-223.111.202.178-0079 | 2.44MB
+  server: 6.mxyun1.top
+  port: 41206
   type: vmess
-  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
-  alterId: 0
+  uuid: 6d61f25c-93e8-3154-a7ff-6f096a98b6f9
+  alterId: 2
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-- name: RELAY-104.17.178.71-0170 | 8.284MB
-  server: cm.sylu.cyou
+- name: 🇭🇰HK-103.68.62.85-0347 | 2.159MB
+  server: hk3.netflix6.com
   port: 443
   type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
   alterId: 0
   cipher: auto
   tls: true
@@ -276,8 +328,78 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: gcsssg.sylu.cyou
-- name: 🇸🇬SG-91.199.87.48-0167 | 3.433MB
+      Host: hk3.netflix6.com
+- name: 🇸🇬SG-159.223.34.189-0571 | 2.153MB
+  server: v44.kamatera.online
+  port: 80
+  type: vmess
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tms.dingtalk.com
+- name: 🇸🇬SG-159.223.56.76-0578 | 1.824MB
+  server: 159.223.56.76
+  port: 80
+  type: vmess
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tms.dingtalk.com
+- name: 🇸🇬SG-13.212.57.27-0121 | 1.526MB
+  server: sg001.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 5cf6cc26-6650-4995-8cdd-9334a044b241
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg001.170203.xyz
+- name: 🇸🇬SG-54.169.59.186-0120 | 1.457MB
+  server: sg002.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 5cf6cc26-6650-4995-8cdd-9334a044b241
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg002.170203.xyz
+- name: 🇸🇬SG-45.118.134.166-0570 | 1.114MB
+  server: v43.kamatera.online
+  port: 80
+  type: vmess
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tms.dingtalk.com
+- name: 🇸🇬SG-91.199.87.48-0990 | 0.997MB
   server: gcoresgg.sylu.cyou
   port: 443
   type: vmess
@@ -291,17 +413,17 @@ proxies:
     path: /
     headers:
       Host: gcoresgg.sylu.cyou
-- name: 🇨🇳CN-223.111.202.178-0326 | 3.408MB
-  server: 112.wgong1.top
-  port: 52212
+- name: 🇨🇳CN-140.179.75.37-0278 | 0.964MB
+  server: 121.wgong1.top
+  port: 52221
   type: vmess
-  uuid: c4155fd9-bfd6-3a3e-891b-dbcecaf8adcf
+  uuid: 16ecb0e3-c1bd-3519-b236-c7ee23832dac
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇸🇬SG-91.199.87.36-0169 | 3.302MB
-  server: gcsssg.sylu.cyou
+- name: 🇭🇰HK-194.99.79.83-0996 | 0.949MB
+  server: gcorehk.sylu.cyou
   port: 443
   type: vmess
   uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -313,98 +435,115 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: gcsssg.sylu.cyou
-- name: 🇨🇳CN-223.111.202.178-0327 | 2.508MB
-  server: 111.wgong1.top
-  port: 52211
+      Host: gcorehk.sylu.cyou
+- name: RELAY-104.17.178.71-0997 | 0.824MB
+  server: cm.sylu.cyou
+  port: 443
   type: vmess
-  uuid: c4155fd9-bfd6-3a3e-891b-dbcecaf8adcf
-  alterId: 2
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0328 | 2.508MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gcorehk.sylu.cyou
+- name: 🇨🇳TW-36.227.198.138-0328 | 0.487MB
+  server: hinet.nbsd.win
+  port: 443
+  type: vmess
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hinet.nbsd.win
+- name: RELAY-172.67.206.31-0731 | 0.394MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.206.31-0731 | 0.394MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-gcore.sharecentre.online
+- name: 🇨🇳CN-223.111.202.178-0289 | 0.382MB
   server: 34.wgong1.top
   port: 52234
   type: vmess
-  uuid: c4155fd9-bfd6-3a3e-891b-dbcecaf8adcf
+  uuid: 16ecb0e3-c1bd-3519-b236-c7ee23832dac
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0329 | 2.415MB
-  server: 33.wgong1.top
-  port: 52233
+- name: 🇨🇳TW-1.170.233.163-0329 | 0.362MB
+  server: tw2.594888.xyz
+  port: 25551
   type: vmess
-  uuid: c4155fd9-bfd6-3a3e-891b-dbcecaf8adcf
-  alterId: 2
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-140.179.75.37-0645 | 2.185MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: 2aeff8c6-984c-3fde-b16d-e2c9d7510d57
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-140.179.75.37-0515 | 1.954MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: 55ae1a8b-8900-34fb-a573-a6399ac0a478
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-140.179.75.37-0317 | 1.308MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: c4155fd9-bfd6-3a3e-891b-dbcecaf8adcf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-140.179.110.44-0519 | 0.927MB
-  server: 117.wgong1.top
-  port: 52217
-  type: vmess
-  uuid: 55ae1a8b-8900-34fb-a573-a6399ac0a478
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-140.179.110.44-0321 | 0.879MB
-  server: 117.wgong1.top
-  port: 52217
-  type: vmess
-  uuid: c4155fd9-bfd6-3a3e-891b-dbcecaf8adcf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0108 | 0.834MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw2.594888.xyz
+- name: 🇨🇳CN-223.111.202.178-0287 | 0.335MB
   server: 112.wgong1.top
   port: 52212
   type: vmess
-  uuid: 429442e0-6854-351c-8399-fc41bab5c5c1
+  uuid: 16ecb0e3-c1bd-3519-b236-c7ee23832dac
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-140.179.75.37-0099 | 0.758MB
-  server: 121.wgong1.top
-  port: 52221
+- name: 🇨🇳CN-223.111.202.178-0290 | 0.312MB
+  server: 33.wgong1.top
+  port: 52233
   type: vmess
-  uuid: 429442e0-6854-351c-8399-fc41bab5c5c1
+  uuid: 16ecb0e3-c1bd-3519-b236-c7ee23832dac
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇭🇰HK-185.14.47.194-0177 | 0.746MB
+- name: 🇨🇳CN-223.111.202.178-0288 | 0.301MB
+  server: 111.wgong1.top
+  port: 52211
+  type: vmess
+  uuid: 16ecb0e3-c1bd-3519-b236-c7ee23832dac
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳TW-122.118.124.212-0330 | 0.227MB
+  server: tw3.594888.xyz
+  port: 25551
+  type: vmess
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw3.594888.xyz
+- name: 🇭🇰HK-185.14.47.194-1000 | 0.213MB
   server: gcsshk.sylu.cyou
   port: 443
   type: vmess
@@ -418,57 +557,7 @@ proxies:
     path: /
     headers:
       Host: gcsshk.sylu.cyou
-- name: 🇸🇬SG-91.243.81.57-0165 | 0.714MB
-  server: gcoresg.sylu.cyou
-  port: 443
-  type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gcoresg.sylu.cyou
-- name: 🇨🇳CN-140.179.110.44-0649 | 0.598MB
-  server: 117.wgong1.top
-  port: 52217
-  type: vmess
-  uuid: 2aeff8c6-984c-3fde-b16d-e2c9d7510d57
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0109 | 0.577MB
-  server: 111.wgong1.top
-  port: 52211
-  type: vmess
-  uuid: 429442e0-6854-351c-8399-fc41bab5c5c1
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-140.179.110.44-0103 | 0.448MB
-  server: 117.wgong1.top
-  port: 52217
-  type: vmess
-  uuid: 429442e0-6854-351c-8399-fc41bab5c5c1
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0654 | 0.229MB
-  server: 112.wgong1.top
-  port: 52212
-  type: vmess
-  uuid: 2aeff8c6-984c-3fde-b16d-e2c9d7510d57
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-104.17.178.71-0178 | 0.19MB
+- name: RELAY-104.17.178.71-1001 | 0.16MB
   server: cm.sylu.cyou
   port: 443
   type: vmess
@@ -482,60 +571,71 @@ proxies:
     path: /
     headers:
       Host: gcsshk.sylu.cyou
-- name: 🇨🇳CN-223.111.202.178-0657 | 0.172MB
-  server: 33.wgong1.top
-  port: 52233
+- name: 🇨🇳CN-43.153.19.100-0355 | 0.112MB
+  server: us2.netflix6.com
+  port: 443
   type: vmess
-  uuid: 2aeff8c6-984c-3fde-b16d-e2c9d7510d57
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us2.netflix6.com
+- name: 🇨🇳CN-43.153.192.171-0334 | 0.068MB
+  server: sg2.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg2.netflix6.com
+- name: 🇨🇳CN-43.153.208.52-0338 | 0.057MB
+  server: sg6.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg6.netflix6.com
+- name: 🇨🇳CN-140.179.136.12-0891 | 0.025MB
+  server: jp02.jafiyun.world
+  port: 21125
+  type: vmess
+  uuid: 3a699efa-14bd-3782-93f4-b68150f05ef3
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0243 | 0.15MB
-  server: 7.mxyun1.top
-  port: 41207
+- name: 🇨🇳CN-43.156.14.82-0340 | 0.017MB
+  server: sg8.netflix6.com
+  port: 443
   type: vmess
-  uuid: 8fbe31ae-6c2b-371f-b366-faafafcce850
-  alterId: 2
+  uuid: 4d2fa29b-778d-3db7-8d92-510ae61064a6
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0244 | 0.116MB
-  server: 8.mxyun1.top
-  port: 41208
-  type: vmess
-  uuid: 8fbe31ae-6c2b-371f-b366-faafafcce850
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0110 | 0.096MB
-  server: 34.wgong1.top
-  port: 52234
-  type: vmess
-  uuid: 429442e0-6854-351c-8399-fc41bab5c5c1
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0242 | 0.087MB
-  server: 6.mxyun1.top
-  port: 41206
-  type: vmess
-  uuid: 8fbe31ae-6c2b-371f-b366-faafafcce850
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-0241 | 0.036MB
-  server: 5.mxyun1.top
-  port: 41205
-  type: vmess
-  uuid: 8fbe31ae-6c2b-371f-b366-faafafcce850
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg8.netflix6.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -592,70 +692,71 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-165.3.122.219-0951 | 108.684MB
-  - 🇺🇸US-34.213.50.202-0549 | 65.045MB
-  - RELAY-104.17.178.71-0152 | 25.166MB
-  - RELAY-172.67.189.230-0636 | 21.827MB
-  - 🇺🇸US-52.8.77.107-0606 | 20.627MB
-  - RELAY-104.17.178.71-0154 | 20.33MB
-  - RELAY-104.17.178.71-0150 | 19.874MB
-  - 🇫🇷FR-51.15.119.156-0151 | 19.344MB
-  - 🇫🇷FR-163.172.137.0-0153 | 19.071MB
-  - RELAY-172.67.189.230-0635 | 18.13MB
-  - RELAY-104.17.178.71-0156 | 16.333MB
+  - RELAY-104.17.178.71-0975 | 55.369MB
+  - RELAY-172.67.206.31-0736 | 50.622MB
+  - 🇺🇸US-66.152.160.78-0359 | 21.617MB
+  - RELAY-104.17.178.71-0977 | 21.211MB
+  - 🇺🇸US-173.230.151.69-0574 | 18.224MB
+  - 🇺🇸US-165.3.122.219-0675 | 17.96MB
+  - 🇫🇷FR-51.15.119.156-0974 | 16.389MB
+  - 🇫🇷FR-163.172.137.0-0976 | 16.144MB
+  - RELAY-104.17.178.71-0973 | 15.089MB
+  - 🇵🇱PL-151.115.62.177-0972 | 13.841MB
+  - RELAY-104.17.178.71-0983 | 12.928MB
+  - 🇵🇱PL-94.156.45.46-0982 | 12.274MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-157.254.193.251-0949 | 16.147MB
-  - 🇯🇵JP-95.85.94.82-0155 | 15.514MB
-  - 🇵🇱PL-151.115.62.177-0149 | 15.273MB
-  - 🇨🇳CN-157.254.193.251-0950 | 14.551MB
-  - RELAY-104.17.178.71-0160 | 12.572MB
-  - 🇵🇱PL-94.156.45.46-0159 | 12.047MB
-  - RELAY-104.17.178.71-0183 | 11.922MB
-  - RELAY-104.17.178.71-0168 | 8.931MB
-  - 🇨🇳CN-36.155.22.91-0022 | 8.312MB
-  - RELAY-104.17.178.71-0170 | 8.284MB
-  - 🇸🇬SG-91.199.87.48-0167 | 3.433MB
+  - 🇨🇳CN-157.254.193.251-0673 | 11.279MB
+  - RELAY-104.17.178.71-1006 | 11.095MB
+  - 🇨🇳CN-157.254.193.251-0674 | 9.373MB
+  - 🇯🇵JP-18.183.222.231-0144 | 4.744MB
+  - 🇯🇵JP-54.249.148.230-0141 | 4.484MB
+  - 🇯🇵JP-18.181.182.165-0142 | 4.373MB
+  - 🇯🇵JP-18.179.8.21-0143 | 3.692MB
+  - 🇰🇷KR-43.201.86.54-0140 | 3.169MB
+  - RELAY-172.67.108.168-0733 | 3.148MB
+  - RELAY-104.17.178.71-0991 | 3.033MB
+  - 🇨🇳CN-223.111.202.178-0079 | 2.44MB
+  - 🇭🇰HK-103.68.62.85-0347 | 2.159MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.111.202.178-0326 | 3.408MB
-  - 🇸🇬SG-91.199.87.36-0169 | 3.302MB
-  - 🇨🇳CN-223.111.202.178-0327 | 2.508MB
-  - 🇨🇳CN-223.111.202.178-0328 | 2.508MB
-  - 🇨🇳CN-223.111.202.178-0329 | 2.415MB
-  - 🇨🇳CN-140.179.75.37-0645 | 2.185MB
-  - 🇨🇳CN-140.179.75.37-0515 | 1.954MB
-  - 🇨🇳CN-140.179.75.37-0317 | 1.308MB
-  - 🇨🇳CN-140.179.110.44-0519 | 0.927MB
-  - 🇨🇳CN-140.179.110.44-0321 | 0.879MB
-  - 🇨🇳CN-223.111.202.178-0108 | 0.834MB
+  - 🇸🇬SG-159.223.34.189-0571 | 2.153MB
+  - 🇸🇬SG-159.223.56.76-0578 | 1.824MB
+  - 🇸🇬SG-13.212.57.27-0121 | 1.526MB
+  - 🇸🇬SG-54.169.59.186-0120 | 1.457MB
+  - 🇸🇬SG-45.118.134.166-0570 | 1.114MB
+  - 🇸🇬SG-91.199.87.48-0990 | 0.997MB
+  - 🇨🇳CN-140.179.75.37-0278 | 0.964MB
+  - 🇭🇰HK-194.99.79.83-0996 | 0.949MB
+  - RELAY-104.17.178.71-0997 | 0.824MB
+  - 🇨🇳TW-36.227.198.138-0328 | 0.487MB
+  - RELAY-172.67.206.31-0731 | 0.394MB
+  - 🇨🇳CN-223.111.202.178-0289 | 0.382MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-140.179.75.37-0099 | 0.758MB
-  - 🇭🇰HK-185.14.47.194-0177 | 0.746MB
-  - 🇸🇬SG-91.243.81.57-0165 | 0.714MB
-  - 🇨🇳CN-140.179.110.44-0649 | 0.598MB
-  - 🇨🇳CN-223.111.202.178-0109 | 0.577MB
-  - 🇨🇳CN-140.179.110.44-0103 | 0.448MB
-  - 🇨🇳CN-223.111.202.178-0654 | 0.229MB
-  - RELAY-104.17.178.71-0178 | 0.19MB
-  - 🇨🇳CN-223.111.202.178-0657 | 0.172MB
-  - 🇨🇳CN-223.111.202.178-0243 | 0.15MB
-  - 🇨🇳CN-223.111.202.178-0244 | 0.116MB
-  - 🇨🇳CN-223.111.202.178-0110 | 0.096MB
-  - 🇨🇳CN-223.111.202.178-0242 | 0.087MB
-  - 🇨🇳CN-223.111.202.178-0241 | 0.036MB
+  - 🇨🇳TW-1.170.233.163-0329 | 0.362MB
+  - 🇨🇳CN-223.111.202.178-0287 | 0.335MB
+  - 🇨🇳CN-223.111.202.178-0290 | 0.312MB
+  - 🇨🇳CN-223.111.202.178-0288 | 0.301MB
+  - 🇨🇳TW-122.118.124.212-0330 | 0.227MB
+  - 🇭🇰HK-185.14.47.194-1000 | 0.213MB
+  - RELAY-104.17.178.71-1001 | 0.16MB
+  - 🇨🇳CN-43.153.19.100-0355 | 0.112MB
+  - 🇨🇳CN-43.153.192.171-0334 | 0.068MB
+  - 🇨🇳CN-43.153.208.52-0338 | 0.057MB
+  - 🇨🇳CN-140.179.136.12-0891 | 0.025MB
+  - 🇨🇳CN-43.156.14.82-0340 | 0.017MB
 rules:
 - MATCH,Global ©️
