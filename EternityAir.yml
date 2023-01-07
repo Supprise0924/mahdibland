@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-107 | 1.911MB
+- name: RELAY-172.67.128.43-059 | 0.637MB
   server: can01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
   alterId: 0
   cipher: auto
   tls: true
@@ -31,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-112 | 0.379MB
-  server: lu01.cf.ssru7.casa
+- name: RELAY-172.67.128.43-069 | 0.046MB
+  server: us02.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
   alterId: 0
   cipher: auto
   tls: true
@@ -44,21 +44,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-110 | 0.051MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
+      Host: us02.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -133,8 +119,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-107 | 1.911MB
-  - RELAY-172.67.128.43-112 | 0.379MB
-  - RELAY-172.67.128.43-110 | 0.051MB
+  - RELAY-172.67.128.43-059 | 0.637MB
+  - RELAY-172.67.128.43-069 | 0.046MB
 rules:
 - MATCH,Global ©️
