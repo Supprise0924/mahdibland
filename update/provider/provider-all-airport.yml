@@ -1,3 +1,4 @@
 proxies:
-  - {name: RELAY-172.67.128.43-331, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: eaad5ba5-55c7-370f-b09d-1544ee38c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
-  - {name: RELAY-172.67.128.43-183, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: a0478d4c-ab0b-3fce-a482-6aba05c282f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: 🇺🇸 US-3.101.106.205-581, server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win, port: 80, type: vmess, uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RELAY-172.67.128.43-356, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: b18473a5-962d-3be0-9d61-44be5c359e1b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: 🇭🇰 HK-20.187.114.68-316, server: az.hk01.ssru7.casa, port: 10031, type: vmess, uuid: b18473a5-962d-3be0-9d61-44be5c359e1b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssru.v2.ru02.2yun.win}}}
