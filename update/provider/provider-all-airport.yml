@@ -1,9 +1,3 @@
 proxies:
-  - {name: RELAY-172.67.128.43-543, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: c8b99301-3784-3782-a928-97915f5646e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
-  - {name: 🇨🇳 CN-223.111.202.178-360, server: 112.wgong1.top, port: 52212, type: vmess, uuid: c83cda06-bc60-32f3-a4f1-4c72474a8737, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-306, server: 112.wgong1.top, port: 52212, type: vmess, uuid: cea317ee-e43c-3b03-b559-21992b9ac366, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-005, server: 8.mxyun1.top, port: 41208, type: vmess, uuid: 826337c0-95a6-33a4-abb4-4972f5d1627f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-308, server: 34.wgong1.top, port: 52234, type: vmess, uuid: cea317ee-e43c-3b03-b559-21992b9ac366, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-004, server: 7.mxyun1.top, port: 41207, type: vmess, uuid: 826337c0-95a6-33a4-abb4-4972f5d1627f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-195, server: 7.mxyun1.top, port: 41207, type: vmess, uuid: b9b6222a-1c0f-3cc7-8573-a3b125763616, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-309, server: 33.wgong1.top, port: 52233, type: vmess, uuid: cea317ee-e43c-3b03-b559-21992b9ac366, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RELAY-172.67.128.43-331, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: eaad5ba5-55c7-370f-b09d-1544ee38c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: RELAY-172.67.128.43-183, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: a0478d4c-ab0b-3fce-a482-6aba05c282f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
