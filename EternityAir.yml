@@ -17,11 +17,29 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-176 | 2.071MB
-  server: can01.cf.ssru7.casa
-  port: 443
+- name: 🇨🇳CN-140.179.136.12-097 | 3.135MB
+  server: jp02.jafiyun.world
+  port: 21125
   type: vmess
-  uuid: a888d4ea-90e1-3b44-8fe0-35dec9498056
+  uuid: ba8d7dc9-78d0-338f-ae90-f6589d27b144
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-140.179.136.12-333 | 2.763MB
+  server: jp02.jafiyun.world
+  port: 21125
+  type: vmess
+  uuid: 6b9acfb8-0b08-3e4e-9baa-eebee452e101
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.218-000 | 0.795MB
+  server: az.hk01.ssru7.casa
+  port: 10010
+  type: vmess
+  uuid: d535df82-42a3-324d-8ae3-d6116f49f61b
   alterId: 0
   cipher: auto
   tls: true
@@ -30,21 +48,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-185 | 0.951MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: a888d4ea-90e1-3b44-8fe0-35dec9498056
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
+      Host: az01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -119,7 +123,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-176 | 2.071MB
-  - RELAY-172.67.128.43-185 | 0.951MB
+  - 🇨🇳CN-140.179.136.12-097 | 3.135MB
+  - 🇨🇳CN-140.179.136.12-333 | 2.763MB
+  - 🇭🇰HK-20.205.40.218-000 | 0.795MB
 rules:
 - MATCH,Global ©️
