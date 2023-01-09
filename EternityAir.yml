@@ -17,60 +17,62 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.215.174.5-202 | 1.69MB
-  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.183.208.186-177 | 1.632MB
-  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
+- name: RELAY-172.67.128.43-059 | 202.198MB
+  server: can01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  uuid: 816bf7de-e80c-3316-9b2e-d8a4ad1717c2
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-140.179.110.44-116 | 1.232MB
-  server: 117.wgong1.top
-  port: 52217
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-135 | 194.604MB
+  server: can01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: f98adff4-880a-3eb5-a0c6-2b9c1c09ecce
-  alterId: 2
+  uuid: bf9b2ec8-37a2-3855-bea1-ea2ff94e33ff
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-123 | 1.031MB
-  server: 34.wgong1.top
-  port: 52234
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-064 | 3.797MB
+  server: lu01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: f98adff4-880a-3eb5-a0c6-2b9c1c09ecce
-  alterId: 2
+  uuid: 816bf7de-e80c-3316-9b2e-d8a4ad1717c2
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-247 | 0.073MB
-  server: 112.wgong1.top
-  port: 52212
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-140 | 3.667MB
+  server: lu01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: f031a34d-f278-3add-9019-8fe617883f88
-  alterId: 2
+  uuid: bf9b2ec8-37a2-3855-bea1-ea2ff94e33ff
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-101 | 0.048MB
-  server: 34.wgong1.top
-  port: 52234
-  type: vmess
-  uuid: a737d93c-e796-3412-89e2-554965ef910b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -127,29 +129,27 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.215.174.5-202 | 1.69MB
+  - RELAY-172.67.128.43-059 | 202.198MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.183.208.186-177 | 1.632MB
+  - RELAY-172.67.128.43-135 | 194.604MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-140.179.110.44-116 | 1.232MB
+  - RELAY-172.67.128.43-064 | 3.797MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.111.202.178-123 | 1.031MB
-  - 🇨🇳CN-223.111.202.178-247 | 0.073MB
-  - 🇨🇳CN-223.111.202.178-101 | 0.048MB
+  - RELAY-172.67.128.43-140 | 3.667MB
 rules:
 - MATCH,Global ©️
