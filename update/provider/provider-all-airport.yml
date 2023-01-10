@@ -1,3 +1,5 @@
 proxies:
-  - {name: 🇭🇰 HK-20.24.87.112-526, server: az.hk01.ssru7.casa, port: 10025, type: vmess, uuid: 51349994-04e5-37a6-853e-7e6208907267, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us05.ssru4.fun}}}
-  - {name: 🇨🇳 CN-140.179.75.37-200, server: 121.wgong1.top, port: 52221, type: vmess, uuid: f95067db-515e-3e36-9548-272b810f2ee8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RELAY-172.67.128.43-099, server: uk01.cf.ssru7.casa, port: 443, type: vmess, uuid: a5877f62-ee12-3861-bda2-77cebf5ce6ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk01.ssru4.fun}}}
+  - {name: 🇭🇰 HK-20.24.87.112-080, server: ah.yd01.ssru7.casa, port: 10014, type: vmess, uuid: a5877f62-ee12-3861-bda2-77cebf5ce6ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sgp01.ssru3.casa}}}
+  - {name: 🇭🇰 HK-20.24.87.112-041, server: az.hk01.ssru7.casa, port: 10015, type: vmess, uuid: a5877f62-ee12-3861-bda2-77cebf5ce6ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.ssru4.fun}}}
+  - {name: 🇭🇰 HK-20.24.87.112-073, server: ah.yd01.ssru7.casa, port: 10015, type: vmess, uuid: a5877f62-ee12-3861-bda2-77cebf5ce6ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.ssru4.fun}}}
