@@ -17,11 +17,25 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-445 | 0.056MB
+- name: RELAY-172.67.128.43-185 | 4.432MB
+  server: can01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: d478efd0-780b-38b5-9e2a-7ced5952a329
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-190 | 3.284MB
   server: lu01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: b15e76b3-d288-37f8-b3fc-9bcab00894f1
+  uuid: d478efd0-780b-38b5-9e2a-7ced5952a329
   alterId: 0
   cipher: auto
   tls: true
@@ -31,12 +45,63 @@ proxies:
     path: /
     headers:
       Host: lu01.ssru3.casa
-- name: 🇯🇵JP-18.181.251.40-146 | 0.051MB
-  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
-  port: 52356
+- name: RELAY-172.67.128.43-195 | 2.71MB
+  server: us02.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  uuid: d478efd0-780b-38b5-9e2a-7ced5952a329
   alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: RELAY-172.67.128.43-194 | 2.583MB
+  server: uk01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: d478efd0-780b-38b5-9e2a-7ced5952a329
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: 🇨🇳CN-140.179.75.37-037 | 0.245MB
+  server: 121.wgong1.top
+  port: 52221
+  type: vmess
+  uuid: 8beb1203-99a8-3a53-9013-df4b57eb2ca5
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: RELAY-104.21.57.25-183 | 0.183MB
+  server: aus01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: d478efd0-780b-38b5-9e2a-7ced5952a329
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aus01.paopaocloud.cyou
+- name: 🇨🇳CN-140.179.75.37-396 | 0.18MB
+  server: 121.wgong1.top
+  port: 52221
+  type: vmess
+  uuid: c1f318b6-4493-3356-a79f-ef96493710da
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
@@ -95,26 +160,31 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.128.43-185 | 4.432MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.128.43-190 | 3.284MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.128.43-195 | 2.71MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-445 | 0.056MB
-  - 🇯🇵JP-18.181.251.40-146 | 0.051MB
+  - RELAY-172.67.128.43-194 | 2.583MB
+  - 🇨🇳CN-140.179.75.37-037 | 0.245MB
+  - RELAY-104.21.57.25-183 | 0.183MB
+  - 🇨🇳CN-140.179.75.37-396 | 0.18MB
 rules:
 - MATCH,Global ©️
