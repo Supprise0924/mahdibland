@@ -1,5 +1,4 @@
 proxies:
-  - {name: 🇨🇳 CN-140.179.110.44-385, server: 117.wgong1.top, port: 52217, type: vmess, uuid: 6fdc3e35-3be0-3b16-88c2-81abfdee2307, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-140.179.136.12-384, server: 118.wgong1.top, port: 52218, type: vmess, uuid: 6fdc3e35-3be0-3b16-88c2-81abfdee2307, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-140.179.136.12-387, server: 115.wgong1.top, port: 52215, type: vmess, uuid: 6fdc3e35-3be0-3b16-88c2-81abfdee2307, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-124.225.88.38-079, server: 10.mxyun1.top, port: 41110, type: vmess, uuid: 55534389-8000-30ba-9dfd-b12bcda6a7e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-140.179.136.12-005, server: jp02.jafiyun.world, port: 21125, type: vmess, uuid: 3a2721f3-0752-318d-b9fc-95dcfbc28293, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-140.179.136.12-151, server: jp02.jafiyun.world, port: 21125, type: vmess, uuid: 8b0803ad-00d2-32c9-88c9-3eb4c4552303, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-42.237.112.252-000, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: 3a2721f3-0752-318d-b9fc-95dcfbc28293, sni: scloud56.jafiyun.world, skip-cert-verify: false}
