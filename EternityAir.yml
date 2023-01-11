@@ -17,30 +17,28 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-140.179.136.12-520 | 2.858MB
-  server: jp02.jafiyun.world
-  port: 21125
+- name: RELAY-172.67.128.43-445 | 0.056MB
+  server: lu01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 8981d321-7c19-3618-b506-31030d714b9d
-  alterId: 2
+  uuid: b15e76b3-d288-37f8-b3fc-9bcab00894f1
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇺🇸US-18.144.52.97-390 | 0.079MB
-  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
-  port: 12356
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: 🇯🇵JP-18.181.251.40-146 | 0.051MB
+  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
+  port: 52356
   type: vmess
   uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-42.237.112.252-000 | 0.061MB
-  server: scloud56.jafiyun.world
-  port: 22056
-  type: trojan
-  password: e9b4e42b-b63c-336b-ba1c-d9a04f2722aa
-  sni: scloud56.jafiyun.world
   skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
@@ -116,8 +114,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-140.179.136.12-520 | 2.858MB
-  - 🇺🇸US-18.144.52.97-390 | 0.079MB
-  - 🇨🇳CN-42.237.112.252-000 | 0.061MB
+  - RELAY-172.67.128.43-445 | 0.056MB
+  - 🇯🇵JP-18.181.251.40-146 | 0.051MB
 rules:
 - MATCH,Global ©️
