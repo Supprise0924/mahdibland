@@ -1,3 +1,2 @@
 proxies:
-  - {name: RELAY-172.67.128.43-320, server: us02.cf.ssru7.casa, port: 443, type: vmess, uuid: 6618e294-987b-352f-9d2a-e6d8ae1975ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
-  - {name: RELAY-172.67.128.43-310, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: 6618e294-987b-352f-9d2a-e6d8ae1975ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: 🇭🇰 HK-16.163.97.225-192, server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win}}}
