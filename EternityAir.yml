@@ -17,7 +17,51 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇨🇳CN-124.225.88.38-391 | 253.198MB
+  server: 118.wgong1.top
+  port: 52218
+  type: vmess
+  uuid: b6ead149-545b-359c-99b1-7b998e4e0e3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-124.225.88.38-388 | 232.064MB
+  server: 121.wgong1.top
+  port: 52221
+  type: vmess
+  uuid: b6ead149-545b-359c-99b1-7b998e4e0e3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-124.225.88.38-069 | 0.428MB
+  server: 122.wgong1.top
+  port: 52222
+  type: vmess
+  uuid: 9f93746e-6ca4-3b1e-be01-81327df07386
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-124.225.88.38-070 | 0.417MB
+  server: 121.wgong1.top
+  port: 52221
+  type: vmess
+  uuid: 9f93746e-6ca4-3b1e-be01-81327df07386
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-124.225.88.38-073 | 0.372MB
+  server: 118.wgong1.top
+  port: 52218
+  type: vmess
+  uuid: 9f93746e-6ca4-3b1e-be01-81327df07386
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +117,29 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-124.225.88.38-391 | 253.198MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-124.225.88.38-388 | 232.064MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-124.225.88.38-069 | 0.428MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇨🇳CN-124.225.88.38-070 | 0.417MB
+  - 🇨🇳CN-124.225.88.38-073 | 0.372MB
 rules:
 - MATCH,Global ©️

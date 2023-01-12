@@ -1,1 +1,6 @@
 proxies:
+  - {name: 🇨🇳 CN-124.225.88.38-391, server: 118.wgong1.top, port: 52218, type: vmess, uuid: b6ead149-545b-359c-99b1-7b998e4e0e3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-124.225.88.38-388, server: 121.wgong1.top, port: 52221, type: vmess, uuid: b6ead149-545b-359c-99b1-7b998e4e0e3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-124.225.88.38-069, server: 122.wgong1.top, port: 52222, type: vmess, uuid: 9f93746e-6ca4-3b1e-be01-81327df07386, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-124.225.88.38-070, server: 121.wgong1.top, port: 52221, type: vmess, uuid: 9f93746e-6ca4-3b1e-be01-81327df07386, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-124.225.88.38-073, server: 118.wgong1.top, port: 52218, type: vmess, uuid: 9f93746e-6ca4-3b1e-be01-81327df07386, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
