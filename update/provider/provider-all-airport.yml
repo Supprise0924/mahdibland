@@ -1,1 +1,3 @@
 proxies:
+  - {name: 🇨🇳 CN-120.240.236.105-000, server: az.hk01.ssru7.casa, port: 10010, type: vmess, uuid: 43758ff3-a4f3-3f36-adbb-44ea085af719, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: az01.ssru4.fun}}}
+  - {name: 🇨🇳 CN-120.240.236.105-001, server: az.hk01.ssru7.casa, port: 10022, type: vmess, uuid: 43758ff3-a4f3-3f36-adbb-44ea085af719, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr01.2yun.win}}}
