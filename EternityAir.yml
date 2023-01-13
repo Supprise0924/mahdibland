@@ -17,70 +17,127 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-118.212.143.57-314 | 11.721MB
+- name: RELAY-172.67.128.43-468 | 9.744MB
+  server: can01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-477 | 9.151MB
+  server: uk01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.128.43-473 | 8.871MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-471 | 8.868MB
+  server: ger01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-476 | 8.828MB
+  server: tr01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr01.ssru4.fun
+- name: RELAY-172.67.128.43-478 | 8.568MB
+  server: us02.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: RELAY-172.67.158.188-466 | 8.39MB
+  server: aus01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aus01.paopaocloud.cyou
+- name: 🇨🇳CN-118.212.143.57-264 | 8.207MB
   server: jafi27.jafiyun.world
   port: 22027
   type: vmess
-  uuid: 41df1e19-f347-3f3f-8ff7-3d839e407b42
+  uuid: 247f8ac5-d144-3c14-808d-071ba87a6e2d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.57-583 | 11.025MB
-  server: scloud15.jafiyun.world
-  port: 22015
-  type: trojan
-  password: 750951dc-e45e-3bef-98ee-9e6aca4993e4
-  sni: scloud15.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.57-333 | 10.989MB
-  server: scloud15.jafiyun.world
-  port: 22015
-  type: trojan
-  password: 41df1e19-f347-3f3f-8ff7-3d839e407b42
-  sni: scloud15.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.57-313 | 10.349MB
-  server: jafi26.jafiyun.world
-  port: 22026
+- name: RELAY-172.67.128.43-475 | 0.33MB
+  server: ph01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 41df1e19-f347-3f3f-8ff7-3d839e407b42
-  alterId: 2
+  uuid: 86cdc07a-203a-3e16-ab3d-9f842d131b91
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.57-334 | 9.969MB
-  server: scloud16.jafiyun.world
-  port: 22016
-  type: trojan
-  password: 41df1e19-f347-3f3f-8ff7-3d839e407b42
-  sni: scloud16.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.57-584 | 9.893MB
-  server: scloud16.jafiyun.world
-  port: 22016
-  type: trojan
-  password: 750951dc-e45e-3bef-98ee-9e6aca4993e4
-  sni: scloud16.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.57-564 | 9.662MB
-  server: jafi27.jafiyun.world
-  port: 22027
-  type: vmess
-  uuid: 750951dc-e45e-3bef-98ee-9e6aca4993e4
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.57-563 | 9.423MB
-  server: jafi26.jafiyun.world
-  port: 22026
-  type: vmess
-  uuid: 750951dc-e45e-3bef-98ee-9e6aca4993e4
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ph01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -137,31 +194,32 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.57-314 | 11.721MB
-  - 🇨🇳CN-118.212.143.57-583 | 11.025MB
+  - RELAY-172.67.128.43-468 | 9.744MB
+  - RELAY-172.67.128.43-477 | 9.151MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.57-333 | 10.989MB
-  - 🇨🇳CN-118.212.143.57-313 | 10.349MB
+  - RELAY-172.67.128.43-473 | 8.871MB
+  - RELAY-172.67.128.43-471 | 8.868MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.57-334 | 9.969MB
-  - 🇨🇳CN-118.212.143.57-584 | 9.893MB
+  - RELAY-172.67.128.43-476 | 8.828MB
+  - RELAY-172.67.128.43-478 | 8.568MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.57-564 | 9.662MB
-  - 🇨🇳CN-118.212.143.57-563 | 9.423MB
+  - RELAY-172.67.158.188-466 | 8.39MB
+  - 🇨🇳CN-118.212.143.57-264 | 8.207MB
+  - RELAY-172.67.128.43-475 | 0.33MB
 rules:
 - MATCH,Global ©️
