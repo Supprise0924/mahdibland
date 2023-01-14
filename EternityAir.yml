@@ -17,34 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-134 | 2.564MB
-  server: can01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 5b5cb83d-522c-3e72-8511-c532b4336638
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-597 | 2.545MB
-  server: can01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: a45ff1bf-40a9-32d0-8d1e-e3975af559cf
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -119,7 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-134 | 2.564MB
-  - RELAY-172.67.128.43-597 | 2.545MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
