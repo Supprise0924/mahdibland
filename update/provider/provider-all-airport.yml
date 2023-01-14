@@ -1,1 +1,3 @@
 proxies:
+  - {name: RELAY-172.67.128.43-301, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: bb47d8fd-3dcd-383e-af10-42f5ba930e41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: RELAY-172.67.128.43-310, server: uk01.cf.ssru7.casa, port: 443, type: vmess, uuid: bb47d8fd-3dcd-383e-af10-42f5ba930e41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk01.ssru4.fun}}}
