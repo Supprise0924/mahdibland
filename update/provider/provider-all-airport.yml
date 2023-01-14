@@ -1,3 +1,9 @@
 proxies:
-  - {name: RELAY-172.67.128.43-301, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: bb47d8fd-3dcd-383e-af10-42f5ba930e41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
-  - {name: RELAY-172.67.128.43-310, server: uk01.cf.ssru7.casa, port: 443, type: vmess, uuid: bb47d8fd-3dcd-383e-af10-42f5ba930e41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk01.ssru4.fun}}}
+  - {name: 🇨🇳 CN-120.240.45.3-555, server: 3.wgong1.top, port: 11203, type: vmess, uuid: bcf15f46-b298-36b3-8146-44964b617e2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-533, server: 3.wgong1.top, port: 11203, type: vmess, uuid: 346d8436-f86b-30f0-a1a5-9e3ea4cd26c4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-569, server: 16.mxyun1.top, port: 41116, type: vmess, uuid: e194d42e-cf5e-38b6-8615-9cdbb676ae9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-543, server: 115.wgong1.top, port: 52215, type: vmess, uuid: bcf15f46-b298-36b3-8146-44964b617e2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-522, server: 114.wgong1.top, port: 52214, type: vmess, uuid: 346d8436-f86b-30f0-a1a5-9e3ea4cd26c4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-537, server: 121.wgong1.top, port: 52221, type: vmess, uuid: bcf15f46-b298-36b3-8146-44964b617e2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-535, server: 123.wgong1.top, port: 52223, type: vmess, uuid: bcf15f46-b298-36b3-8146-44964b617e2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-530, server: 30.wgong1.top, port: 52230, type: vmess, uuid: 346d8436-f86b-30f0-a1a5-9e3ea4cd26c4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
