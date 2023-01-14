@@ -1,5 +1,2 @@
 proxies:
-  - {name: RELAY-172.67.128.43-443, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: d58a269a-8f9f-3928-be32-2dbf79f2c793, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
-  - {name: RELAY-172.67.128.43-059, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: 31b03420-bc22-3864-a430-a2869c1d0db7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
-  - {name: RELAY-172.67.128.43-448, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: d58a269a-8f9f-3928-be32-2dbf79f2c793, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
-  - {name: RELAY-172.67.128.43-446, server: ger01.cf.ssru7.casa, port: 443, type: vmess, uuid: d58a269a-8f9f-3928-be32-2dbf79f2c793, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ger01.ssru4.fun}}}
+  - {name: 🇨🇳 CN-120.240.236.105-000, server: az.hk01.ssru7.casa, port: 10010, type: vmess, uuid: 31b03420-bc22-3864-a430-a2869c1d0db7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: az01.ssru4.fun}}}

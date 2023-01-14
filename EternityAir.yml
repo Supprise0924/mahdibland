@@ -17,23 +17,9 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-443 | 11.034MB
-  server: can01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: d58a269a-8f9f-3928-be32-2dbf79f2c793
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-059 | 0.43MB
-  server: can01.cf.ssru7.casa
-  port: 443
+- name: 🇨🇳CN-120.240.236.105-000 | 1.102MB
+  server: az.hk01.ssru7.casa
+  port: 10010
   type: vmess
   uuid: 31b03420-bc22-3864-a430-a2869c1d0db7
   alterId: 0
@@ -44,35 +30,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-448 | 0.43MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: d58a269a-8f9f-3928-be32-2dbf79f2c793
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-446 | 0.429MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: d58a269a-8f9f-3928-be32-2dbf79f2c793
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
+      Host: az01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -128,28 +86,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-443 | 11.034MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-059 | 0.43MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-448 | 0.43MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-446 | 0.429MB
+  - 🇨🇳CN-120.240.236.105-000 | 1.102MB
 rules:
 - MATCH,Global ©️
