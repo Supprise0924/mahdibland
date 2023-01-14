@@ -17,56 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.176.119.173-085 | 215.512MB
-  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-13.57.35.221-570 | 8.477MB
-  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-13.52.80.182-569 | 8.267MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-13.52.80.182-074 | 8.23MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-52.53.238.202-555 | 8.104MB
-  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
-  port: 443
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-172.67.128.43-175 | 8.055MB
+- name: RELAY-172.67.128.43-443 | 2.736MB
   server: can01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 81b1f46d-b4c0-3cd8-af30-d7727bbc45cf
+  uuid: d58a269a-8f9f-3928-be32-2dbf79f2c793
   alterId: 0
   cipher: auto
   tls: true
@@ -76,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-185 | 7.381MB
-  server: us02.cf.ssru7.casa
+- name: RELAY-172.67.128.43-059 | 0.904MB
+  server: can01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 81b1f46d-b4c0-3cd8-af30-d7727bbc45cf
+  uuid: 31b03420-bc22-3864-a430-a2869c1d0db7
   alterId: 0
   cipher: auto
   tls: true
@@ -89,21 +44,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: us02.ssru4.fun
-- name: RELAY-172.67.128.43-184 | 1.868MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 81b1f46d-b4c0-3cd8-af30-d7727bbc45cf
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
+      Host: can01.paopaocloud.cyou
 proxy-groups:
 - name: Global ©️
   type: select
@@ -159,32 +100,26 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-54.176.119.173-085 | 215.512MB
-  - 🇺🇸US-13.57.35.221-570 | 8.477MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-13.52.80.182-569 | 8.267MB
-  - 🇺🇸US-13.52.80.182-074 | 8.23MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-52.53.238.202-555 | 8.104MB
-  - RELAY-172.67.128.43-175 | 8.055MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-185 | 7.381MB
-  - RELAY-172.67.128.43-184 | 1.868MB
+  - RELAY-172.67.128.43-443 | 2.736MB
+  - RELAY-172.67.128.43-059 | 0.904MB
 rules:
 - MATCH,Global ©️
