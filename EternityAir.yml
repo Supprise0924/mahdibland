@@ -17,78 +17,93 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.240.45.3-555 | 8.352MB
-  server: 3.wgong1.top
-  port: 11203
+- name: 🇺🇸US-54.176.119.173-085 | 215.512MB
+  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
+  port: 12356
   type: vmess
-  uuid: bcf15f46-b298-36b3-8146-44964b617e2b
-  alterId: 2
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-533 | 7.454MB
-  server: 3.wgong1.top
-  port: 11203
+- name: 🇺🇸US-13.57.35.221-570 | 8.477MB
+  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
+  port: 52356
   type: vmess
-  uuid: 346d8436-f86b-30f0-a1a5-9e3ea4cd26c4
-  alterId: 2
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-569 | 7.442MB
-  server: 16.mxyun1.top
-  port: 41116
+- name: 🇺🇸US-13.52.80.182-569 | 8.267MB
+  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
+  port: 52356
   type: vmess
-  uuid: e194d42e-cf5e-38b6-8615-9cdbb676ae9a
-  alterId: 2
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-543 | 7.298MB
-  server: 115.wgong1.top
-  port: 52215
+- name: 🇺🇸US-13.52.80.182-074 | 8.23MB
+  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
+  port: 52356
   type: vmess
-  uuid: bcf15f46-b298-36b3-8146-44964b617e2b
-  alterId: 2
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-522 | 7.116MB
-  server: 114.wgong1.top
-  port: 52214
+- name: 🇺🇸US-52.53.238.202-555 | 8.104MB
+  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
+  port: 443
   type: vmess
-  uuid: 346d8436-f86b-30f0-a1a5-9e3ea4cd26c4
-  alterId: 2
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-537 | 7.009MB
-  server: 121.wgong1.top
-  port: 52221
+- name: RELAY-172.67.128.43-175 | 8.055MB
+  server: can01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: bcf15f46-b298-36b3-8146-44964b617e2b
-  alterId: 2
+  uuid: 81b1f46d-b4c0-3cd8-af30-d7727bbc45cf
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-535 | 2.49MB
-  server: 123.wgong1.top
-  port: 52223
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-185 | 7.381MB
+  server: us02.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: bcf15f46-b298-36b3-8146-44964b617e2b
-  alterId: 2
+  uuid: 81b1f46d-b4c0-3cd8-af30-d7727bbc45cf
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-530 | 0.19MB
-  server: 30.wgong1.top
-  port: 52230
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: RELAY-172.67.128.43-184 | 1.868MB
+  server: uk01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 346d8436-f86b-30f0-a1a5-9e3ea4cd26c4
-  alterId: 2
+  uuid: 81b1f46d-b4c0-3cd8-af30-d7727bbc45cf
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -145,31 +160,31 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-555 | 8.352MB
-  - 🇨🇳CN-120.240.45.3-533 | 7.454MB
+  - 🇺🇸US-54.176.119.173-085 | 215.512MB
+  - 🇺🇸US-13.57.35.221-570 | 8.477MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-569 | 7.442MB
-  - 🇨🇳CN-120.240.45.3-543 | 7.298MB
+  - 🇺🇸US-13.52.80.182-569 | 8.267MB
+  - 🇺🇸US-13.52.80.182-074 | 8.23MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-522 | 7.116MB
-  - 🇨🇳CN-120.240.45.3-537 | 7.009MB
+  - 🇺🇸US-52.53.238.202-555 | 8.104MB
+  - RELAY-172.67.128.43-175 | 8.055MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-535 | 2.49MB
-  - 🇨🇳CN-120.240.45.3-530 | 0.19MB
+  - RELAY-172.67.128.43-185 | 7.381MB
+  - RELAY-172.67.128.43-184 | 1.868MB
 rules:
 - MATCH,Global ©️
