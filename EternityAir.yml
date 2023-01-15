@@ -17,160 +17,45 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-249 | 1.039MB
-  server: can01.cf.ssru7.casa
-  port: 443
+- name: 🇺🇸US-54.215.248.247-012 | 27.242MB
+  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
+  port: 80
   type: vmess
-  uuid: ace064ec-4b5b-3e2d-9d0a-f140f019c936
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-430 | 0.84MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: bc182b43-b4e8-3834-8435-03a2cdb7fd05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-434 | 0.787MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: bc182b43-b4e8-3834-8435-03a2cdb7fd05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-254 | 0.741MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ace064ec-4b5b-3e2d-9d0a-f140f019c936
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-258 | 0.698MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ace064ec-4b5b-3e2d-9d0a-f140f019c936
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-252 | 0.63MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ace064ec-4b5b-3e2d-9d0a-f140f019c936
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.128.43-428 | 0.579MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: bc182b43-b4e8-3834-8435-03a2cdb7fd05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.128.43-425 | 0.556MB
-  server: can01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: bc182b43-b4e8-3834-8435-03a2cdb7fd05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-435 | 0.492MB
-  server: us02.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: bc182b43-b4e8-3834-8435-03a2cdb7fd05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
-- name: RELAY-172.67.128.43-257 | 0.482MB
-  server: tr01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ace064ec-4b5b-3e2d-9d0a-f140f019c936
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tr01.ssru4.fun
-- name: RELAY-172.67.128.43-259 | 0.35MB
-  server: us02.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ace064ec-4b5b-3e2d-9d0a-f140f019c936
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
+- name: 🇨🇳CN-120.79.53.229-467 | 16.878MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13852
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 10bcfc72-de25-4b97-befd-e79969844e0a
+- name: 🇨🇳CN-120.79.53.229-468 | 2.65MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 10bcfc72-de25-4b97-befd-e79969844e0a
+- name: 🇨🇳CN-120.79.53.229-471 | 1.869MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13065
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 10bcfc72-de25-4b97-befd-e79969844e0a
+- name: 🇨🇳CN-120.79.53.229-469 | 1.299MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 10bcfc72-de25-4b97-befd-e79969844e0a
+- name: 🇨🇳CN-203.156.217.4-460 | 0.421MB
+  server: tongzhi.838501.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 10bcfc72-de25-4b97-befd-e79969844e0a
 proxy-groups:
 - name: Global ©️
   type: select
@@ -227,34 +112,29 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-249 | 1.039MB
-  - RELAY-172.67.128.43-430 | 0.84MB
+  - 🇺🇸US-54.215.248.247-012 | 27.242MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-434 | 0.787MB
-  - RELAY-172.67.128.43-254 | 0.741MB
+  - 🇨🇳CN-120.79.53.229-467 | 16.878MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-258 | 0.698MB
-  - RELAY-172.67.128.43-252 | 0.63MB
+  - 🇨🇳CN-120.79.53.229-468 | 2.65MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-428 | 0.579MB
-  - RELAY-172.67.128.43-425 | 0.556MB
-  - RELAY-172.67.128.43-435 | 0.492MB
-  - RELAY-172.67.128.43-257 | 0.482MB
-  - RELAY-172.67.128.43-259 | 0.35MB
+  - 🇨🇳CN-120.79.53.229-471 | 1.869MB
+  - 🇨🇳CN-120.79.53.229-469 | 1.299MB
+  - 🇨🇳CN-203.156.217.4-460 | 0.421MB
 rules:
 - MATCH,Global ©️
