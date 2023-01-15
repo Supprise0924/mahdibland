@@ -17,45 +17,15 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.215.248.247-012 | 27.242MB
-  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
-  port: 80
+- name: 🇨🇳CN-120.240.45.3-000 | 23.327MB
+  server: 3.mxyun1.top
+  port: 41203
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
+  uuid: 9a0a3ed3-ef4b-309b-a007-d43aa4d3f4c1
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.79.53.229-467 | 16.878MB
-  server: sz-hk-bgp-iplc.810823.xyz
-  port: 13852
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 10bcfc72-de25-4b97-befd-e79969844e0a
-- name: 🇨🇳CN-120.79.53.229-468 | 2.65MB
-  server: sz-hk-bgp-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 10bcfc72-de25-4b97-befd-e79969844e0a
-- name: 🇨🇳CN-120.79.53.229-471 | 1.869MB
-  server: sz-hk-bgp-iplc.810823.xyz
-  port: 13065
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 10bcfc72-de25-4b97-befd-e79969844e0a
-- name: 🇨🇳CN-120.79.53.229-469 | 1.299MB
-  server: sz-hk-bgp-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 10bcfc72-de25-4b97-befd-e79969844e0a
-- name: 🇨🇳CN-203.156.217.4-460 | 0.421MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 10bcfc72-de25-4b97-befd-e79969844e0a
 proxy-groups:
 - name: Global ©️
   type: select
@@ -111,30 +81,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-54.215.248.247-012 | 27.242MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.79.53.229-467 | 16.878MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.79.53.229-468 | 2.65MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.79.53.229-471 | 1.869MB
-  - 🇨🇳CN-120.79.53.229-469 | 1.299MB
-  - 🇨🇳CN-203.156.217.4-460 | 0.421MB
+  - 🇨🇳CN-120.240.45.3-000 | 23.327MB
 rules:
 - MATCH,Global ©️
