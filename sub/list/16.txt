@@ -1,24 +1,43 @@
-  - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: CloudFlare, server: cloudflare.quest, port: 2086, type: vmess, uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: buyvm.cloudflare.quest}}}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 Japan 02, server: 120.240.236.27, port: 33257, type: ss, cipher: aes-128-gcm, password: 9bcc6f6f-f6c2-433d-acd7-ac31f6f4f735}
+  - {name: 🇭🇰 Hongkong 03, server: 36.155.20.52, port: 12674, type: ss, cipher: aes-128-gcm, password: 9bcc6f6f-f6c2-433d-acd7-ac31f6f4f735}
+  - {name: 🇸🇬 Singapore 03, server: 36.155.20.52, port: 30179, type: ss, cipher: aes-128-gcm, password: 9bcc6f6f-f6c2-433d-acd7-ac31f6f4f735}
+  - {name: 🇯🇵 Japan 03, server: 36.155.20.52, port: 12109, type: ss, cipher: aes-128-gcm, password: 9bcc6f6f-f6c2-433d-acd7-ac31f6f4f735}
+  - {name: 🇯🇵 Japan 10Gbs, server: 111.6.85.143, port: 15827, type: ss, cipher: chacha20-ietf-poly1305, password: 9bcc6f6f-f6c2-433d-acd7-ac31f6f4f735}
+  - {name: "🇭🇰 [VIP2]-香港01", server: 74.119.193.18, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇦🇺 [VIP2]-澳大利亚01", server: 13.210.139.80, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: "🇸🇪 [VIP2]-瑞典01", server: 13.51.178.44, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇸🇬 [VIP2]-新加坡02", server: 54.169.89.218, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h295826.waihuizhibiaowang.com:11243, server: h295826.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: h217022.waihuizhibiaowang.com:11143, server: h217022.waihuizhibiaowang.com, port: 11143, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
   - {name: h295826.waihuizhibiaowang.com:11743, server: h295826.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
   - {name: h217022.waihuizhibiaowang.com:11743, server: h217022.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h217022.waihuizhibiaowang.com:11143, server: h217022.waihuizhibiaowang.com, port: 11143, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: "🇦🇺 [VIP2]-澳大利亚01", server: 13.210.139.80, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h295826.waihuizhibiaowang.com:11243, server: h295826.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: "🇸🇬 [VIP2]-新加坡02", server: 54.169.89.218, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52}
-  - {name: 🇭🇰 香港IPLC顶级专线03, server: newtw600mline001.fnline.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d3111300c9a1}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531}
-  - {name: 🇰🇷 韩国 02, server: yzdx.relay01.fast001.buzz, port: 19243, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e}
-  - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: 1, server: 0kxedm1x8q8lksmj03.xingbayun.buzz, port: 10003, type: vmess, uuid: 8c99f546-14de-47d4-8811-253219772e04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2, server: 0kxedm1x8q8lksmj02.xingbayun.buzz, port: 10002, type: vmess, uuid: 8c99f546-14de-47d4-8811-253219772e04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 3, server: 0kxedm1x8q8lksmj04.xingbayun.buzz, port: 10004, type: vmess, uuid: 8c99f546-14de-47d4-8811-253219772e04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 4, server: 16.162.22.106, port: 80, type: vmess, uuid: 0b4d241b-850c-41f4-ae6f-16317d1fded3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images}}
+  - {name: 5, server: 3.112.254.42, port: 443, type: trojan, password: hfjlmL5z, skip-cert-verify: false}
+  - {name: 6, server: 54.169.89.218, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 7, server: pics.quicklyfast.xyz, port: 443, type: vmess, uuid: a0b1fb66-ed41-4077-86a9-a61c143d3777, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /a0b1fb66-ed41-4077-86a9-a61c143d3777, headers: {Host: pics.quicklyfast.xyz}}}
+  - {name: 8, server: testda1.yunyunyuna.win, port: 8800, type: vmess, uuid: 5af468ae-1388-3e63-9092-fafd24ba2770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 9, server: 43.207.2.60, port: 443, type: trojan, password: hfjlmL5z, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 10, server: 152.67.254.16, port: 43815, type: vmess, uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc}}
+  - {name: 11, server: get.tech, port: 2086, type: vmess, uuid: 458caaed-c7a7-46ae-bc37-90724d40dc33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: sfodo.cloudflare.quest}}}
+  - {name: 12, server: ovh-3.555530.xyz, port: 80, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /happy, headers: {Host: ovh-3.555530.xyz}}}
+  - {name: 🇯🇵 Japan 4, server: jp.stablize.top, port: 443, type: trojan, password: 0a7db4de-0e00-44b9-8c99-0628cff22268, skip-cert-verify: false}
+  - {name: 🇯🇵 Japan 3, server: jp.stablize.top, port: 443, type: trojan, password: 0a7db4de-0e00-44b9-8c99-0628cff22268, skip-cert-verify: false}
+  - {name: 🇺🇸 America 3, server: usa.stablize.top, port: 443, type: trojan, password: 0a7db4de-0e00-44b9-8c99-0628cff22268, skip-cert-verify: false}
+  - {name: 🇸🇬 Singapore 5, server: sg.stablize.top, port: 443, type: trojan, password: 0a7db4de-0e00-44b9-8c99-0628cff22268, skip-cert-verify: false}
+  - {name: 🇸🇬 Singapore 6, server: sg.stablize.top, port: 443, type: trojan, password: 0a7db4de-0e00-44b9-8c99-0628cff22268, skip-cert-verify: false}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e}
-  - {name: 🇨🇳 台湾 01, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e}
+  - {name: 🇭🇰 香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531}
