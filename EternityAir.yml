@@ -17,11 +17,39 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-555 | 5.204MB
+- name: RELAY-172.67.128.43-639 | 14.274MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 8e709283-c92b-33d3-96e6-709029fda1bf
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-176 | 14.107MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: d683166c-2613-3628-b24e-f4393c94cdba
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-174 | 13.877MB
   server: ger01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 2dedb2e1-c9fd-318c-a7d9-5e34343dd31f
+  uuid: d683166c-2613-3628-b24e-f4393c94cdba
   alterId: 0
   cipher: auto
   tls: true
@@ -31,6 +59,62 @@ proxies:
     path: /
     headers:
       Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-637 | 12.641MB
+  server: ger01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 8e709283-c92b-33d3-96e6-709029fda1bf
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-181 | 6.188MB
+  server: us02.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: d683166c-2613-3628-b24e-f4393c94cdba
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: RELAY-172.67.128.43-180 | 2.73MB
+  server: uk01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: d683166c-2613-3628-b24e-f4393c94cdba
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.128.43-643 | 2.678MB
+  server: uk01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 8e709283-c92b-33d3-96e6-709029fda1bf
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -86,25 +170,31 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.128.43-639 | 14.274MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.128.43-176 | 14.107MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.128.43-174 | 13.877MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-555 | 5.204MB
+  - RELAY-172.67.128.43-637 | 12.641MB
+  - RELAY-172.67.128.43-181 | 6.188MB
+  - RELAY-172.67.128.43-180 | 2.73MB
+  - RELAY-172.67.128.43-643 | 2.678MB
 rules:
 - MATCH,Global ©️
