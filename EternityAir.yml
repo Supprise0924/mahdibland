@@ -17,12 +17,12 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.240.45.3-000 | 7.759MB
-  server: 124.wgong1.top
-  port: 52224
+- name: 🇺🇸US-54.153.123.13-275 | 9.516MB
+  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
+  port: 12356
   type: vmess
-  uuid: 0af5decc-f5a3-3219-af12-f668d3af4014
-  alterId: 2
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
@@ -100,6 +100,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-000 | 7.759MB
+  - 🇺🇸US-54.153.123.13-275 | 9.516MB
 rules:
 - MATCH,Global ©️
