@@ -1,4 +1,3 @@
 proxies:
-  - {name: RELAY-172.67.128.43-336, server: us02.cf.ssru7.casa, port: 443, type: vmess, uuid: 837017e7-16cd-34d9-b09d-39a330c99c8a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
-  - {name: RELAY-172.67.128.43-331, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: 837017e7-16cd-34d9-b09d-39a330c99c8a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
-  - {name: RELAY-172.67.128.43-500, server: us02.cf.ssru7.casa, port: 443, type: vmess, uuid: 3fd4f95b-13e7-30fa-affa-12cc801e9174, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
+  - {name: 🇨🇳 CN-183.56.250.213-128, server: suijirukou.bpzhuanfa.com, port: 29961, type: vmess, uuid: 9858dec0-0fe1-44b2-b088-339d056b41e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: suijirukou.bpzhuanfa.com}}}
+  - {name: 🇨🇳 CN-223.244.25.161-000, server: dxhefei01.baipiaozf.com, port: 32247, type: vmess, uuid: 371214c5-8fcf-4d30-8b05-9fcd824d47c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dxhefei01.baipiaozf.com}}}
