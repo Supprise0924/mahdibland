@@ -17,174 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-223.244.25.161-000 | 0.35MB
-  server: dxhefei01.baipiaozf.com
-  port: 32247
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxhefei01.baipiaozf.com
-- name: 🇨🇳CN-222.217.95.177-001 | 0.31MB
-  server: dxnanning01.baipiaozf.com
-  port: 50971
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxnanning01.baipiaozf.com
-- name: 🇨🇳CN-14.18.126.221-002 | 0.302MB
-  server: gzct.xn--dlq110j6ul.cc
-  port: 31964
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-14.18.126.221-003 | 0.275MB
-  server: gzct.xn--dlq110j6ul.cc
-  port: 48395
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-114.80.34.162-004 | 0.272MB
-  server: shct.xn--dlq110j6ul.cc
-  port: 24201
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-180.102.17.44-005 | 0.253MB
-  server: dxnanjing01.baipiaozf.com
-  port: 10888
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxnanjing01.baipiaozf.com
-- name: 🇨🇳CN-14.215.163.125-006 | 0.216MB
-  server: csguangzhou01.baipiaozf.com
-  port: 21416
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: csguangzhou01.baipiaozf.com
-- name: 🇨🇳CN-14.18.127.30-007 | 0.188MB
-  server: gzct.xn--dlq110j6ul.cc
-  port: 26478
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-114.80.33.77-008 | 0.181MB
-  server: shct.xn--dlq110j6ul.cc
-  port: 15800
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-180.102.17.44-009 | 0.17MB
-  server: dxnanjing01.baipiaozf.com
-  port: 14635
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxnanjing01.baipiaozf.com
-- name: 🇨🇳CN-222.217.95.177-010 | 0.006MB
-  server: dxnanning01.baipiaozf.com
-  port: 39092
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxnanning01.baipiaozf.com
-- name: 🇨🇳CN-14.18.126.221-011 | 0.006MB
-  server: gzct.xn--dlq110j6ul.cc
-  port: 19065
-  type: vmess
-  uuid: 490fc4bd-9c44-4627-ac00-ddd805ced56a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzct.xn--dlq110j6ul.cc
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -240,36 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-223.244.25.161-000 | 0.35MB
-  - 🇨🇳CN-222.217.95.177-001 | 0.31MB
-  - 🇨🇳CN-14.18.126.221-002 | 0.302MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-14.18.126.221-003 | 0.275MB
-  - 🇨🇳CN-114.80.34.162-004 | 0.272MB
-  - 🇨🇳CN-180.102.17.44-005 | 0.253MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-14.215.163.125-006 | 0.216MB
-  - 🇨🇳CN-14.18.127.30-007 | 0.188MB
-  - 🇨🇳CN-114.80.33.77-008 | 0.181MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-180.102.17.44-009 | 0.17MB
-  - 🇨🇳CN-222.217.95.177-010 | 0.006MB
-  - 🇨🇳CN-14.18.126.221-011 | 0.006MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
