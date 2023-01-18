@@ -1,3 +1,2 @@
 proxies:
-  - {name: 🇨🇳 CN-183.56.250.213-128, server: suijirukou.bpzhuanfa.com, port: 29961, type: vmess, uuid: 9858dec0-0fe1-44b2-b088-339d056b41e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: suijirukou.bpzhuanfa.com}}}
-  - {name: 🇨🇳 CN-223.244.25.161-000, server: dxhefei01.baipiaozf.com, port: 32247, type: vmess, uuid: 371214c5-8fcf-4d30-8b05-9fcd824d47c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dxhefei01.baipiaozf.com}}}
+  - {name: 🇩🇪 DE-52.29.94.90-036, server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win, port: 26901, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
