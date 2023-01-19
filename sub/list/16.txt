@@ -1,32 +1,32 @@
-  - {name: 🇰🇷 Korea1-韩国一, server: frontend.yijianlian.app, port: 54580, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false}
-  - {name: 🇦🇺 Australia-澳大利亚, server: frontend.yijianlian.app, port: 54590, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false}
-  - {name: 🇸🇬 Singapore1-新加坡VIP1, server: frontend.yijianlian.app, port: 54550, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false}
-  - {name: 🇺🇸 USA-美国, server: frontend.yijianlian.app, port: 54430, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false}
-  - {name: 🇯🇵 Japan-日本, server: frontend.yijianlian.app, port: 54530, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 05, server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-hk.efyunpan.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 03, server: dl-sg3.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 02, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 01, server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 04, server: dl-sg4.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false}
-  - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h217022.waihuizhibiaowang.com:11143, server: h217022.waihuizhibiaowang.com, port: 11143, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h217022.waihuizhibiaowang.com:11743, server: h217022.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h295826.waihuizhibiaowang.com:11743, server: h295826.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: h295826.waihuizhibiaowang.com:11243, server: h295826.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false}
-  - {name: "🇨🇳 台湾①{移动|V2ray}", server: cm1.awslcn.cc, port: 25232, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}}
-  - {name: "🇨🇳 台湾②{联通|V2ray}", server: cu.awslcn.cc, port: 25232, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}}
-  - {name: "🇸🇬 新加坡02{优化1|V2ray}", server: sg1.awslcn.cc, port: 25243, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.cc}}}
-  - {name: "🇯🇵 日本01{优化1|V2ray}", server: jp1.awslcn.cc, port: 25237, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.awslcn.cc}}}
-  - {name: 🇨🇳 Taiwan, server: 19215tj.matrixxx888.com, port: 19215, type: trojan, password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b, sni: eplcgame.com, skip-cert-verify: false}
+  - {name: Deep new tunnel, server: iplc-sg.19991314.xyz, port: 10010, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 Japan Spare, server: ahyd.pangupy.com, port: 40480, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 Taiwan tunnel, server: iplc-hk.19991314.xyz, port: 10010, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 Singapore Spare, server: ahyd.pangupy.com, port: 32692, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Shanghai Tunnel, server: iplc-jp.19991314.xyz, port: 10010, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IPLC-APS-HK-1(ss), server: h649960.waihuizhibiaowang.com, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: 3ce74a1a-d01c-48bc-bba2-f643ff70667c}
+  - {name: 🇭🇰 IPLC-APS-HK-1(trojan), server: h649960.waihuizhibiaowang.com, port: 13543, type: trojan, password: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, sni: h649960.waihuizhibiaowang.com, skip-cert-verify: false}
+  - {name: 🇭🇰 IPLC-APS-HK-1(v2ray), server: h649960.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 IPLC-APS-JP-1(v2ray), server: h649960.waihuizhibiaowang.com, port: 12443, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 CTVIP-HK-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 CTVIP-JP-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12443, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 IEPL-AP-TW-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12343, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL-AP-HK-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 IEPL-AP-JP-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12443, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 CTVIP-US-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12243, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 IPLC-US-US-3(v2ray), server: h650196.waihuizhibiaowang.com, port: 12243, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 IEPL-AP-US-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12243, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false}
+  - {name: 🇩🇪 IPLC-EU-DE-3(v2ray), server: h650196.waihuizhibiaowang.com, port: 12743, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇬🇧 IPLC-EU-UK-3(v2ray), server: h650196.waihuizhibiaowang.com, port: 12143, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇩🇪 CTVIP-DE-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12743, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 06, server: dl-hk6.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-hk.efyunpan.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 05, server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-hk.efyunpan.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 03, server: dl-sg3.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-sg.efyunpan.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 02, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-sg.efyunpan.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 02, server: dl-hk2.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-hk.efyunpan.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 01, server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-sg.efyunpan.com, skip-cert-verify: false}
+  - {name: 🇭🇰 Hong Kong 4, server: 19201tj.matrixxx888.com, port: 19201, type: trojan, password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b, sni: eplcgame.com, skip-cert-verify: false}
+  - {name: 🇭🇰 Hong Kong 7, server: 19201tj.matrixxx888.com, port: 19201, type: trojan, password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b, sni: eplcgame.com, skip-cert-verify: false}
   - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531}
-  - {name: 🇭🇰 香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e}
