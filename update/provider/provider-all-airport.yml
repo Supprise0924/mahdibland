@@ -1,2 +1,2 @@
 proxies:
-  - {name: 🇺🇸 US-54.166.206.127-011, server: us02.170203.xyz, port: 43543, type: vmess, uuid: 63db9713-30b0-42e6-bd12-42a61640fce5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.170203.xyz}}}
+  - {name: 🇺🇸 US-199.195.252.27-000, server: 199.195.252.27, port: 80, type: vmess, uuid: 439aada5-2f21-3500-ae2d-45e86b5b4052, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: tms.dingtalk.com, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
